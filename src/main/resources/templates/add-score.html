@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="layout :: content">
+<head>
+    <title>Add Score</title>
+</head>
+<body>
+<div class="container">
+    <h2 class="mb-4">Add a Score</h2>
+    <form th:action="@{/scores}" method="post">
+        <div class="mb-3">
+            <label for="studentId" class="form-label">Student ID</label>
+            <input type="number" class="form-control" id="studentId" name="studentId" placeholder="Enter student ID" required>
+        </div>
+        <div class="mb-3">
+            <label for="subjectId" class="form-label">Subject ID</label>
+            <input type="number" class="form-control" id="subjectId" name="subjectId" placeholder="Enter subject ID" required>
+        </div>
+        <div class="mb-3">
+            <label for="score1" class="form-label">Score 1</label>
+            <input type="number" class="form-control" id="score1" name="score1" placeholder="Enter score 1" required>
+        </div>
+        <div class="mb-3">
+            <label for="score2" class="form-label">Score 2</label>
+            <input type="number" class="form-control" id="score2" name="score2" placeholder="Enter score 2" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Score</button>
+    </form>
+</div>
+</body>
+</html>

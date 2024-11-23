@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff !important;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.table th {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
+input.form-control {
+    border-radius: 8px;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    width: 100%;
+}
